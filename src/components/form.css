@@ -1,0 +1,47 @@
+
+
+.container form{
+    background-color: rgb(231, 5, 51);
+    padding:20px;
+    border:4px solid rgb(194, 81, 103);
+}
+form .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+form input[name="city"], form input[name="country"]{
+    width:75%;
+    background-color:transparent;
+    color:white;
+    border:0;
+    border-radius: 0;
+    border-bottom:2px solid rgba(0, 0, 0, 0.952);
+    text-align: center;
+    margin:0 auto;
+}
+
+form input:focus{
+    background-color:transparent !important;
+    color:rgba(255, 255, 0) !important;
+    box-shadow: none !important;
+}
+
+
+form button:hover{
+   background-color: transparent;
+   border: 3px solid rgb(212, 212, 30);
+   cursor: pointer;
+}
+
+form input::-webkit-input-placeholder
+{  background-color: transparent !important;
+    color:rgb(255, 255, 255) !important;
+}
+
+@media screen and (min-width:768px) {
+    form input[name="city"], form input[name="country"]{
+        width:100%;
+    }
+}
