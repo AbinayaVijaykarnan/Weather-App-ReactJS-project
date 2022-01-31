@@ -108,7 +108,7 @@ class App extends React.Component{
        /*Making API call from OpenWeather website */
    if(city&&country)
     {
-       const API_call=await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_key}`);
+       const API_call=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_key}`);
   
        /*Converting JSON format to javascript object ,we use .json() method*/
        const response=await API_call.json();
