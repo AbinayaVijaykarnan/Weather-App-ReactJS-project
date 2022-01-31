@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+
+                       /*weather component */
+.weather{
+    font-family: 'Alegreya', serif;
+}
+
+.innercontainer{
+    border-radius:5px;
+}
+.alignCenter,.footer{
+    text-align: center;   
+}
+
+.icons-size{
+    font-size:10rem;
+}
+
+.actualtemp-size{
+    font-size:7rem;
+}
+
+                   /*header component */
+
+.logo{
+    background-image: url(./images/logo\ copy.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    border-radius:5px;
+    height:100px;
+}
+.header ul{
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+   justify-content: space-evenly;
+   line-height:100px;
+}
+
+.header ul button:hover{
+    font-weight: bolder;
+}
+
+        /* SliderComponent */
+ .slideOuterContainer h1{
+      font-size: 3rem;
+  }
+
+  .slideOuterContainer p{
+      text-align:justify;
+  }
+
+
+   /*footer component */
+.footer{
+    font-size:2rem;
+}
+.footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:start;
+}
+.footer ul li{
+    padding-right:15px;
+}
+.footer a:hover{
+    color:white;
+}
+    /*Responsive Template*/
+
+@media screen and (max-width: 992px) {
+        /*HeaderComponent*/
+    .logo {
+      background-position:center;
+    }
+           /*SliderComponent*/
+    .slideOuterContainer h1{
+       font-size: 2rem;
+    }
+  }
+
+ 
+
+
