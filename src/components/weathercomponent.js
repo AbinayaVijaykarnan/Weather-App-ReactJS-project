@@ -6,7 +6,7 @@ const WeatherComponent = (props) => {
   console.log("backgroundimg value:" + props.backgroundimg);
 
   return (
-    <div className='container p-5 my-2 w-50 alignCenter weather'
+    <div className='container p-5 my-2 w-75 alignCenter weather'
       style={{
         backgroundImage: props.backgroundimg, color: props.textcolour, border: props.backgroundimg ? '4px solid white' : 'null',
         borderRadius: props.backgroundimg ? '30px' : 'null', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'
